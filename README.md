@@ -40,7 +40,7 @@ gcloud init
 2. If not present, create `app.yaml` with contents similar to:
 
 ```yaml
-runtime: python39
+runtime: python
 entrypoint: gunicorn -b :$PORT main:app
 
 env_variables:
